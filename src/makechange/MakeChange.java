@@ -14,7 +14,7 @@ public class MakeChange {
 		int ones;
 		int quarters;
 		int dimes;
-		int nickles;
+		int nickels;
 		int pennies;
 
 		System.out.print("Please enter the price of your item: ");
@@ -75,11 +75,11 @@ public class MakeChange {
 				System.out.println("Dimes    : " + dimes);
 			}
 
-			nickles = cashBack / 5;
+			nickels = cashBack / 5;
 			
-			if (nickles > 0) {
+			if (nickels > 0) {
 				cashBack = cashBack % 5;
-				System.out.println("Nickles  : " + nickles);
+				System.out.println("Nickels  : " + nickels);
 			}
 			pennies = cashBack;
 			
